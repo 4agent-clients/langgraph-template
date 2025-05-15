@@ -25,4 +25,4 @@ const mcpTools = await client.getTools();
  * See https://js.langchain.com/docs/how_to/custom_tools/#tool-function for more information.
  */
 
-export const TOOLS = [mcpTools];
+export const TOOLS = [...mcpTools];
