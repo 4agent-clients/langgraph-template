@@ -16,13 +16,14 @@
     "start:server": "node --experimental-specifier-resolution=node dist/server.js"
   },
   "dependencies": {
-    "@langchain/community": "^0.3.27",
-    "@langchain/core": "^0.3.37",
-    "@langchain/langgraph": "^0.2.67",
-    "@langchain/mcp-adapters": "^0.4.2",
+    "@langchain/community": "^0.3.43",
+    "@langchain/core": "^0.3.56",
+    "@langchain/langgraph": "^0.2.72",
+    "@langchain/mcp-adapters": "^0.4.5",
+    "@langchain/openai": "^0.5.10",
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "langchain": "^0.3.14"
+    "langchain": "^0.3.26"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
